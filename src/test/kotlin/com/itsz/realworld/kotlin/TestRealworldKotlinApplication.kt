@@ -5,5 +5,5 @@ import org.springframework.boot.with
 
 
 fun main(args: Array<String>) {
-	fromApplication<RealworldKotlinApplication>().with(TestcontainersConfiguration::class).run(*args)
+	fromApplication<RealWorldKotlinApplication>().with(TestcontainersConfiguration::class).run(*args)
 }
